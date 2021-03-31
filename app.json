@@ -1,0 +1,46 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/login/studentLogin/studentLogin",
+        "pages/login/companyLogin/companyLogin",
+        "pages/login/adminLogin/adminLogin",
+        "pages/students/index/index",
+        "pages/students/stuInfo/stuInfo",
+        "pages/students/resume/resume",
+        "pages/students/password/password",
+        "pages/students/contactUs/contactUs",
+        "pages/students/position/position",
+        "pages/students/enroll/enroll",
+        "pages/company/index/index",
+        "pages/company/comInfo/comInfo",
+        "pages/company/postRelease/postRelease",
+        "pages/admin/index/index",
+        "pages/admin/manageStu/manageStu",
+        "pages/admin/manageCom/manageCom",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "iconPath": "images/gongsi_1.png",
+                "selectedIconPath": "images/gongsi.png",
+                "pagePath": "pages/students/position/position",
+                "text": ""
+            },
+            {
+                "iconPath": "images/student.png",
+                "selectedIconPath": "images/xuesheng.png",
+                "pagePath": "pages/students/index/index",
+                "text": ""
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

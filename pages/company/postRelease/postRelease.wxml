@@ -1,0 +1,77 @@
+<!--pages/company/postRelease/postRelease.wxml-->
+<!-- <text>pages/company/postRelease/postRelease.wxml</text> -->
+<form>
+    <view class="cu-form-group">
+		<view class="title">职位名称：</view>
+		<input class="text-right" placeholder="请输入职位名称"></input>
+    </view>
+    
+    <view class="cu-form-group">
+		<view class="title">行业分类：</view>
+        <view class="cu-form-group">
+            <picker bindchange="PickerChange1" value="{{index1}}" range="{{picker1}}">
+                <view class="picker" style="font-size:32rpx">
+                    {{index1?picker1[index1]:'全部'}}
+                </view>
+            </picker>
+    	</view>
+    </view>
+
+    <view class="cu-form-group">
+		<view class="title">职位类型：</view>
+        <view class="cu-form-group">
+            <picker bindchange="PickerChange" value="{{index}}" range="{{picker}}">
+                <view class="picker" style="font-size:32rpx">
+                    {{index?picker[index]:'全部'}}
+                </view>
+            </picker>
+        </view>
+    </view>
+
+    <view class="cu-form-group">
+        <view class="title">工作地点：</view>
+        <picker mode="region" bindchange="RegionChange" value="{{region}}" custom-item="{{customItem}}">
+            <view class="picker">
+                {{region[0]}}，{{region[1]}}，{{region[2]}}
+            </view>
+        </picker>
+    </view>
+    
+    <view class="cu-form-group">
+		<view class="title">详细地址：</view>
+		<input class="text-right" placeholder="请输入详细地址"></input>
+    </view>
+
+    <view class="cu-form-group">
+		<view class="title">招聘人数：</view>
+		<input class="text-right" placeholder="请输入招聘人数"></input>
+    </view>
+
+    <view class="cu-form-group">
+        <view class="title">学历要求：</view>
+		<picker bindchange="PickerChange4" value="{{index4}}" range="{{picker4}}">
+			<view class="picker" style="font-size:32rpx">
+				{{index4?picker4[index4]:'全部'}}
+			</view>
+		</picker>
+    </view>
+
+    <view class="cu-form-group">
+		<view class="title">职位薪资：</view>
+		<input class="text-right" placeholder="请输入职位薪资"></input>
+    </view>
+
+    <view class="cu-form-group">
+		<view class="title">职位职责：</view>
+		<input class="text-right" placeholder="请输入职位职责"></input>
+    </view>
+
+    <view class="cu-form-group">
+		<view class="title">职位要求：</view>
+		<input class="text-right" placeholder="请输入职位要求"></input>
+    </view>
+</form>
+
+<view class="cu-bar btn-group margin-top">
+    <button class="cu-btn shadow-blur round lg" style="background-color:#6495ED; color:white">发布职位</button>
+</view>

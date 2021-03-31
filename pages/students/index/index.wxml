@@ -1,0 +1,43 @@
+<!--pages/students/index/index.wxml-->
+
+<open-data type="userAvatarUrl"  class="cu-avatar xl round margin-xl" style="overflow:hidden"></open-data>
+<open-data type="userNickName" style="font-size:36rpx;font-weight:bold"></open-data>
+
+<view class="cu-list menu card-menu margin-tb-sm margin-bottom-xl shadow-lg radius">
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/students/stuInfo/stuInfo">
+        <text class="cuIcon-profile text-blue"></text>
+        <text class="text-grey">个人信息</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/students/resume/resume">
+        <text class="cuIcon-edit text-pink"></text>
+        <text class="text-grey">我的简历</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/logs/logs">
+        <text class="cuIcon-like text-red"></text>
+        <text class="text-grey">收藏</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/students/password/password">
+        <text class="cuIcon-lock text-cyan"></text>
+        <text class="text-grey">密码管理</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/students/contactUs/contactUs">
+        <text class="cuIcon-service text-green"></text>
+        <text class="text-grey">联系管理员</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/logs/logs">
+        <text class="cuIcon-form text-mauve"></text>
+        <text class="text-grey">日志</text>
+      </navigator>
+    </view>
+</view>

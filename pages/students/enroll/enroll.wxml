@@ -1,0 +1,28 @@
+<!--pages/students/enroll/enroll.wxml-->
+<!-- <text>pages/students/enroll/enroll.wxml</text> -->
+<form bindsubmit="regist">
+    <view class="cu-form-group margin-top">
+		<view class="title">用户名：</view>
+		<input id="username" type="text" placeholder="请输入用户名" bindinput="usernameInput" name="username"></input>
+	</view>
+    <view class="cu-form-group">
+		<view class="title">密码：</view>
+		<input id="password" type="password" placeholder="请输入密码" bindinput="passwordInput" name="password"></input>
+	</view>
+    <view class="cu-form-group">
+		<view class="title">确认密码：</view>
+		<input id="passwordAck" type="password" placeholder="请再次输入密码" bindinput="passwordInputAck"></input>
+	</view>	
+	<view class="cu-form-group">
+		<view class="title">手机：</view>
+		<input id="stuPhone" type="number" placeholder="请输入手机号" bindinput="stuPhoneInput" name="stuPhone"></input>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">邮箱：</view>
+		<input id="stuMail" placeholder="请输入邮箱" bindinput="stuMailInput" name="stuMail"></input>
+	</view>
+	<view class="cu-bar btn-group margin-top">
+		<button class="cu-btn shadow-blur round lg" style="background-color:#6495ED; color:white" form-type="submit">注册</button>
+	</view>
+
+</form>

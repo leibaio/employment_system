@@ -1,0 +1,35 @@
+<!--pages/students/stuInfo/stuInfo.wxml-->
+<!-- <text>pages/students/stuInfo/stuInfo.wxml</text> -->
+<form>
+    <view class="cu-form-group margin-top">
+		<view class="title">姓名：</view>
+		<input placeholder=""></input>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">性别：</view>
+		<input placeholder=""></input>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">年龄：</view>
+		<input placeholder=""></input>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">学号：</view>
+		<input placeholder=""></input>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">班级：</view>
+		<input placeholder=""></input>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">手机：</view>
+		<input placeholder=""></input>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">邮箱：</view>
+		<input placeholder=""></input>
+	</view>
+</form>
+<view class="cu-bar btn-group margin-top">
+    <button class="cu-btn shadow-blur round lg" style="background-color:#6495ED; color:white">保存</button>
+</view>

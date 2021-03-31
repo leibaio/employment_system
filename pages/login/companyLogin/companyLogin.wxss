@@ -1,0 +1,12 @@
+/* pages/login/companyLogin/companyLogin.wxss */
+page {
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.loginpic{
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}

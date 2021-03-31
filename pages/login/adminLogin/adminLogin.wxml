@@ -1,0 +1,23 @@
+<!--pages/login/adminLogin/adminLogin.wxml-->
+<!-- <text>pages/login/adminLogin/adminLogin.wxml</text> -->
+<view class="bg-white flex-sub radius shadow-lg loginpic">
+    <image src="../../../images/管理员logo.png" mode="aspectFit" class="gif-white response" style="height:443rpx"></image>
+</view>
+
+<form class="margin-bottom" >
+    <view class="cu-form-group margin-top" style="">
+        <view class="title cu-item cur cuIcon-people"></view>
+        <input placeholder="请输入账号"></input>
+    </view>
+    <view class="cu-form-group margin-top" style="width:70%">
+        <view class="title cu-item cur cuIcon-lock"></view>
+        <input type="password" placeholder="请输入密码"></input>
+    </view>
+</form>
+
+<view class="flex solid-bottom padding-sm justify-around margin-top">
+    
+    <button bindtap="goToAdminIndex" class="cu-btn bg-grey lg button-hover margin-top" style="color:#ffffff; background-color:#6495ED; width:50%">登录</button>
+    <!-- <button class="cu-btn bg-grey lg button-hover" style="color:#ffffff; background-color:#B0C4DE">注册</button> -->
+</view> 
+

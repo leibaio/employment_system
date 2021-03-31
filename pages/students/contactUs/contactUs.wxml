@@ -1,0 +1,7 @@
+<!--pages/students/contactUs/contactUs.wxml-->
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>联系邮箱</view>
+  <view class='text-content'>
+    <view class='text-center'>193430727@qq.com   ٩(๑❛ᴗ❛๑)۶</view>
+  </view>
+</view>
