@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/students/position/position",
         "pages/index/index",
         "pages/login/studentLogin/studentLogin",
         "pages/login/companyLogin/companyLogin",
@@ -9,15 +10,15 @@
         "pages/students/resume/resume",
         "pages/students/password/password",
         "pages/students/contactUs/contactUs",
-        "pages/students/position/position",
         "pages/students/enroll/enroll",
+        "pages/students/notice/notice",   
         "pages/company/index/index",
         "pages/company/comInfo/comInfo",
         "pages/company/postRelease/postRelease",
         "pages/admin/index/index",
-        "pages/admin/manageStu/manageStu",
-        "pages/admin/manageCom/manageCom",
+        "pages/admin/noticeEdit/noticeEdit",
         "pages/logs/logs"
+
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -31,6 +32,12 @@
                 "iconPath": "images/gongsi_1.png",
                 "selectedIconPath": "images/gongsi.png",
                 "pagePath": "pages/students/position/position",
+                "text": ""
+            },
+            {
+                "iconPath": "images/消息未选中.png",
+                "selectedIconPath": "images/消息选中.png",
+                "pagePath": "pages/students/notice/notice",
                 "text": ""
             },
             {

@@ -1,4 +1,4 @@
-// pages/admin/manageCom/manageCom.js
+// pages/admin/noticeEdit/noticeEdit.js
 Page({
 
     /**

@@ -1,0 +1,3 @@
+/* pages/admin/manaCom/manaCom.wxss */
+@import "../../../icon.wxss";
+@import "../../../app.wxss";

@@ -1,0 +1,13 @@
+<!--pages/admin/manaNotice/manaNotice.wxml-->
+<!-- <text>pages/admin/manaNotice/manaNotice.wxml</text> -->
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>消息发布
+  </view>
+  <view> 
+    <navigator class="margin-right" url="/pages/admin/noticeEdit/noticeEdit">
+        <button class="cu-btn shadow-blur round xs margin-right" style="background-color:#6495ED; color:white; width:100%;">进入编辑</button>
+    </navigator>
+  </view> 
+</view>
+

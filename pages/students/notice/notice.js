@@ -1,4 +1,4 @@
-// pages/admin/manageStu/manageStu.js
+// pages/students/notice/notice.js
 Page({
 
     /**

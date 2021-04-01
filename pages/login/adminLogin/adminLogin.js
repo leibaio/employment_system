@@ -10,7 +10,7 @@ Page({
 
     goToAdminIndex: function(){
         wx.navigateTo({
-          url: '../../company/index/index'
+          url: '/pages/admin/index/index'
         })
     },
     /**

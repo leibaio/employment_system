@@ -1,0 +1,3 @@
+/* pages/admin/manaStu/manaStu.wxss */
+@import "../../../icon.wxss";
+@import "../../../app.wxss";

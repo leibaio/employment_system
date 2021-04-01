@@ -1,0 +1,15 @@
+<!--pages/admin/noticeEdit/noticeEdit.wxml-->
+<!-- <text>pages/admin/noticeEdit/noticeEdit.wxml</text> -->
+<view class="solids-bottom solids padding-xs">
+    <view class="text-center">
+        <view class="solid-bottom text-xsl padding">
+            <text class="cuIcon-edit" style="color:#6495ED"></text>
+        </view>
+    </view>
+    <view class="inputBorder margin-top" >
+        <textarea placeholder="请输入通知内容" class="margin" style="font-size:38rpx;"></textarea>
+    </view>
+  </view>
+  <view class="cu-bar btn-group margin-top">
+        <button class="cu-btn shadow-blur round lg" style="background-color:#6495ED; color:white">发布</button>
+    </view>

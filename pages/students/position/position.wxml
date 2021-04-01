@@ -6,9 +6,10 @@
       <input type="text" placeholder="职位，公司搜索" confirm-type="search"></input>
     </view>
     <view class="action">
-      <button class="cu-btn shadow-blur round" style="background-color:#4169E1; color:white">搜索</button>
+      <button class="cu-btn shadow-blur round" style="background-color:#4169E1; color:white; width:100%">搜索</button>
     </view>
   </view>  
+
 
 <swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
   <swiper-item wx:for="{{swiperList}}" wx:key class="{{cardCur==index?'cur':''}}">
@@ -20,6 +21,16 @@
 </swiper>
 
 
+<view class="cu-card article {{isCard?'no-card':''}}" style="height:200rpx">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">通知</view>
+    </view>
+    <view class="content">
+        <view class="text-content">xxxxx</view>
+    </view>
+  </view>
+</view>
 
 <view class="cu-bar bg-white">
 	<view class="action">
