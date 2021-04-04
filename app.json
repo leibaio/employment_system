@@ -1,11 +1,12 @@
 {
     "pages": [
-        "pages/students/position/position",
+
         "pages/index/index",
         "pages/login/studentLogin/studentLogin",
         "pages/login/companyLogin/companyLogin",
         "pages/login/adminLogin/adminLogin",
         "pages/students/index/index",
+        "pages/students/position/position",
         "pages/students/stuInfo/stuInfo",
         "pages/students/resume/resume",
         "pages/students/password/password",

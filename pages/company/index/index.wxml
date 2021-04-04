@@ -1,6 +1,21 @@
 <!--pages/company/index/index.wxml-->
 <!-- <text>pages/company/index/index.wxml</text> -->
 
+<open-data type="userAvatarUrl"  class="cu-avatar xl round margin-xl" style="overflow:hidden"></open-data>
+<open-data type="userNickName" style="font-size:36rpx;font-weight:bold"></open-data>
+
+<view class="cu-card article {{isCard?'no-card':''}}" style="height:250rpx">
+  <view class="cu-item shadow">
+    <view class="title">
+      <text class="cuIcon-message " style="color:#6495ED;"> 通知消息</text>
+      <view class="text-cut"></view>
+    </view>
+    <view class="content">
+        <view class="text-content">xxxxx</view>
+    </view>
+  </view>
+</view>
+
 <view class="cu-list menu card-menu margin-tb-sm margin-bottom-xl shadow-lg radius">
     <view class="cu-item arrow">
       <navigator class="content" url="/pages/company/comInfo/comInfo">
@@ -45,3 +60,4 @@
       </navigator>
     </view>
 </view>
+

@@ -52,9 +52,32 @@ Page({
       })
     },
 
-    onLoad() {
-      this.towerSwiper('swiperList');
-      // 初始化towerSwiper 传已有的数组名即可
+    onLoad: function(){
+      let that = this;
+
+      wx.request({
+        url: 'http://192.168.50.144/employment_system/positionList.php',
+        data: {},
+        method: 'GET',
+        header:{
+          'content-type': 'application/json'
+        },
+        success: function(res){
+          console.log(res.data);``
+          //如果在success直接写this就变成了wx.request里的this
+          that.setData({
+            //绑定json格式的数据给posiList变量， res.data即为positionList.php文件返回的数据
+            posiList: res.data
+          })
+        },
+        fail: function(res){
+          wx.showModal({
+            title:'Employment_system',
+            content: res.data,
+          })
+        }
+      })
+     
     },
     DotStyle(e) {
       this.setData({
@@ -66,5 +89,5 @@ Page({
       this.setData({
         cardCur: e.detail.current
       })
-    }
+    },
   })

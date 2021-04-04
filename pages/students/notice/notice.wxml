@@ -1,2 +1,12 @@
 <!--pages/students/notice/notice.wxml-->
-<text>pages/students/notice/notice.wxml</text>
+<!-- <text>pages/students/notice/notice.wxml</text> -->
+<view class="cu-card article {{isCard?'no-card':''}}" style="height:600rpx">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">通知</view>
+    </view>
+    <view class="content">
+        <view class="text-content">xxxxx</view>
+    </view>
+  </view>
+</view>

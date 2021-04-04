@@ -1,1 +1,10 @@
 /* pages/company/index/index.wxss */
+.td {
+
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+  }

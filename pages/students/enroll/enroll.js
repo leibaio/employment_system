@@ -85,6 +85,7 @@ Page({
         }else{
             wx.request({
             //   url: 'http://www.employment_system.com/employment_system/register.php',
+                //使用本地ipv4
             url: 'http://192.168.50.144/employment_system/register.php',
               method: 'POST',
               data: {
