@@ -11,7 +11,7 @@
       <block wx:else>
         <!-- <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image> -->
         <view class="flex" >
-          <text class="userinfo-nickname text-center flex-sub">Hello ,　</text>
+          <text class="userinfo-nickname text-center flex-sub">Hello 　</text>
           <open-data class="userinfo-nickname flex-sub" type="userNickName"></open-data>
         </view>
           <text class="userinfo-nickname text-center" style="margin-top:-0.5cm">choose your identity</text>    

@@ -77,8 +77,15 @@
 </view>
 
 <view class="margin-top">
+	<view class="cu-bar bg-white" style="margin-bottom:-0.4cm">
+		<view class="action">
+			   <text class="cuIcon-btn text-blue"></text>
+			   <text class="text-xl text-bold" style="color:#6495ED">招聘信息</text>
+			   
+  		</view>
+	</view>
 	<view wx:for='{{posiList}}' wx:key='positionId'>
-		<view class="padding text-grey bg-white shadow-warp">
+		<view class="padding text-grey bg-white shadow margin-top">
 			<view class="flex text-xl text-black justify-between text-bold">
 				{{item[2]}}
 				<view class="text-red">
@@ -87,6 +94,9 @@
 			</view>
 			<view class="flex justify-between" style="margin-top:0.3cm;">
 				{{item[3]}}　{{item[4]}}　{{item[8]}}　{{item[5]}}　  
+			</view>
+			<view class="flex text-black solids-top"  style="margin-top:0.2cm; padding-top:0.3cm;font-size:31rpx;">
+				{{item[12]}}
 			</view>
 		</view>
 

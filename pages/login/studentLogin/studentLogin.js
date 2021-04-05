@@ -77,7 +77,7 @@ Page({
 
     stuEnroll: function(){
       wx.navigateTo({ /* 学生注册页面 */
-        url: '../students/enroll/enroll',
+        url: '/pages/students/enroll/enroll',
       })
     },
 
