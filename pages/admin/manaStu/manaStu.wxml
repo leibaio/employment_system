@@ -1,9 +1,0 @@
-<!--pages/admin/manaStu/manaStu.wxml-->
-<!-- <text>pages/admin/manaStu/manaStu.wxml</text> -->
-<view class="cu-bar bg-white search fixed" style="top:{{CustomBar}}px">
-  <view class="search-form round">
-    <text class="cuIcon-search"></text>
-    <input type="text" placeholder="搜索学生" confirm-type="search"></input>
-    <button class="cu-btn shadow-blur round xs margin-right" style="background-color:#6495ED; color:white; width:20%;">搜索</button>
-  </view>
-</view>
