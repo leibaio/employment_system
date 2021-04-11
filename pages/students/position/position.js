@@ -22,8 +22,10 @@ Page({
       region: ['上海市', '上海市', '浦东新区'],
       picker: ['全职', '兼职', '实习'],
       picker1: ['互联网|计算机','金融|银行','保险','医疗','物流运输','化工|能源','服务业','媒体|广告','其他'],
-      picker2: ['民营企业','事业单位','国企','外资','中外合资']
+      picker2: ['民营企业','事业单位','国企','外资','中外合资'],
+
     },
+
 
     RegionChange: function(e) {
       this.setData({
@@ -57,13 +59,14 @@ Page({
 
       wx.request({
         url: 'http://192.168.50.144/employment_system/positionList.php',
+        // url: 'http://172.20.10.8/employment_system/positionList.php',
         data: {},
         method: 'GET',
         header:{
           'content-type': 'application/json'
         },
         success: function(res){
-          console.log(res.data);``
+          console.log(res.data);
           //如果在success直接写this就变成了wx.request里的this
           that.setData({
             //绑定json格式的数据给posiList变量， res.data即为positionList.php文件返回的数据
@@ -90,4 +93,5 @@ Page({
         cardCur: e.detail.current
       })
     },
+    
   })

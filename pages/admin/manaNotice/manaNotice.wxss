@@ -1,4 +1,0 @@
-/* pages/admin/manaNotice/manaNotice.wxss */
-/*引入第三方组件库ColorUI*/
-@import "../../../icon.wxss";
-@import "../../../app.wxss";

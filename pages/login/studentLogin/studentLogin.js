@@ -28,6 +28,7 @@ Page({
       wx.request({
         // url:'http://www.employment_system.com/employment_system/login.php',
         url:'http://192.168.50.144/employment_system/login.php',
+        // url:'http://172.20.10.8/employment_system/login.php',
         //声明请求方式为 POST 请求
         method:'POST',
         //向后台传递的数据： 账号，密码 (通过e.detail.value.xxx获取input输入框输入的值) 

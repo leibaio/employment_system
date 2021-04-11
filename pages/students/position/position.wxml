@@ -91,15 +91,18 @@
 				<view class="text-red">
 					{{item[9]}}
 				</view>					
-			</view>
+			</view> 
 			<view class="flex justify-between" style="margin-top:0.3cm;">
 				{{item[3]}}　{{item[4]}}　{{item[8]}}　{{item[5]}}　  
 			</view>
-			<view class="flex text-black solids-top"  style="margin-top:0.2cm; padding-top:0.3cm;font-size:31rpx;">
+			<view class="flex arrow justify-between text-black solids-top" style="margin-top:0.2cm; padding-top:0.3cm;font-size:31rpx;">
 				{{item[12]}}
+				<view bindtap="change">
+					<text class="cuIcon-moreandroid "></text>
+				</view>
 			</view>
-		</view>
-
+			<text class="flex margin-top text-lg text-bold text-black">职位职责</text>
+			<text class="flex margin-top">{{item[10]}}</text>
+		</view> 
 	</view>
-
-</view>
+</view> 

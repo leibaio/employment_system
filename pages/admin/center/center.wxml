@@ -1,0 +1,29 @@
+<!--pages/admin/center/center.wxml-->
+<!-- <text>pages/admin/center/center.wxml</text> -->
+
+
+<open-data type="userAvatarUrl"  class="cu-avatar xl round margin-xl" style="overflow:hidden"></open-data>
+<open-data type="userNickName" style="font-size:36rpx;font-weight:bold"></open-data>
+
+
+<view class="cu-list menu card-menu margin-tb-sm margin-bottom-xl shadow-lg radius">
+    <view class="cu-item arrow margin-top round">
+      <navigator class="content" url="/pages/admin/noticeEdit/noticeEdit">
+        <text class="cuIcon-edit text-blue"></text>
+        <text class="text-grey">消息发布</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow margin-top round">
+      <navigator class="content" url="/pages/admin/stuMana/stuMana">
+        <text class="cuIcon-group text-pink"></text>
+        <text class="text-grey">学生管理</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow margin-top round">
+      <navigator class="content" url="/pages/logs/logs">
+        <text class="cuIcon-shop text-orange"></text>
+        <text class="text-grey">企业管理</text>
+      </navigator>
+    </view>
+</view>
+

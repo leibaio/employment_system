@@ -1,7 +1,7 @@
 {
     "pages": [
-        
-
+        "pages/admin/comMana/comMana",
+        "pages/admin/center/center",
         "pages/index/index",
         "pages/login/studentLogin/studentLogin",
         "pages/login/companyLogin/companyLogin",
@@ -17,8 +17,8 @@
         "pages/company/index/index",
         "pages/company/comInfo/comInfo",
         "pages/company/postRelease/postRelease",
-        "pages/admin/index/index",
         "pages/admin/noticeEdit/noticeEdit",
+        "pages/admin/stuMana/stuMana",                
         "pages/logs/logs"
 
     ],
