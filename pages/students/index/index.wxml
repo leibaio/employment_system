@@ -5,7 +5,7 @@
 
 <view class="cu-list menu card-menu margin-tb-sm margin-bottom-xl shadow-lg radius">
     <view class="cu-item arrow">
-      <navigator class="content" url="/pages/students/stuInfo/stuInfo">
+      <navigator class="content" url="/pages/students/stuInfo/showStuInfo/showStuInfo">
         <text class="cuIcon-profile text-blue"></text>
         <text class="text-grey">个人信息</text>
       </navigator>

@@ -5,8 +5,43 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        noticeId:"",
+        noticeContent:"",
     },
+
+
+    noticeInput:function(e){
+        this.data.noticeContent = e.detail.value;
+    },
+
+    noticeSubmit: function(e){
+        console.log(e.detail.value);
+        wx.request({
+          url: 'http://192.168.50.144/employment_system/sendNotice.php',
+          method: 'POST',
+          data:{
+              noticeId: e.detail.value.noticeId,
+              noticeContent: e.detail.value.noticeContent,
+          },
+          header:{
+            'Content-Type':'application/x-www-form-urlencoded'
+          },
+          success: function(res){
+              if("发送失败" == res.data){
+                  wx.showModal({
+                      title: 'Employment_system',
+                      content: '发送失败',
+                  })
+              }else if("发送成功" == res.data){
+                  wx.showModal({
+                    title: 'Employment_system',
+                    content: '发送成功',        
+                  })
+              }
+          }
+        })
+    },
+
 
     /**
      * 生命周期函数--监听页面加载

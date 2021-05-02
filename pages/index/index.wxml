@@ -17,9 +17,9 @@
           <text class="userinfo-nickname text-center" style="margin-top:-0.5cm">choose your identity</text>    
       </block>
     
-      <button bindtap="goToStuLogin" class="cu-btn round lg button-hover shadow line-blue margin" style="color:#709ceb; background-color:#ffffff; font-weight: bold; width:30%">Student</button>
-      <button bindtap="goToComLogin" class="cu-btn round lg button-hover shadow line-blue margin" style="color:#709ceb; background-color:#ffffff; font-weight: bold;width:30%">Company</button>
-      <button bindtap="goToAdmin" class="cu-btn round lg button-hover shadow line-blue margin" style="color:#709ceb; background-color:#ffffff; font-weight: bold;width:30%">Admin</button>
+      <button bindtap="goToStuLogin" class="cu-btn round lg button-hover shadow line-blue margin btn" style="background-color:#ffffff">Student</button>
+      <button bindtap="goToComLogin" class="cu-btn round lg button-hover shadow line-blue margin btn" style="background-color:#ffffff;">Company</button>
+      <button bindtap="goToAdmin" class="cu-btn round lg button-hover shadow line-blue margin btn" style="background-color:#ffffff;">Admin</button>
     </view>
   </block>
 </view>

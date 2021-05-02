@@ -1,1 +1,4 @@
 /* pages/students/notice/notice.wxss */
+.gif{
+    margin-top: 0cm;
+}

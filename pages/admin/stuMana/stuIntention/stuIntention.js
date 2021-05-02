@@ -1,4 +1,4 @@
-// pages/students/notice/notice.js
+// pages/admin/stuMana/stuIntention/stuIntention.js
 Page({
 
     /**
@@ -13,32 +13,6 @@ Page({
      */
     onLoad: function (options) {
 
-        let that = this;
-
-        wx.request({
-          url: 'http://192.168.50.144/employment_system/noticeList.php',
-          // url: 'http://172.20.10.8/employment_system/positionList.php',
-          data: {},
-          method: 'GET',
-          header:{
-            'content-type': 'application/json'
-          },
-          success: function(res){
-            console.log(res.data);
-            //如果在success直接写this就变成了wx.request里的this
-            that.setData({
-              //绑定json格式的数据给noticeList变量， res.data即为noticeList.php文件返回的数据
-              noticeList: res.data
-            })
-          },
-          fail: function(res){
-            wx.showModal({
-              title:'Employment_system',
-              content: res.data,
-            })
-          }
-        })
-       
     },
 
     /**

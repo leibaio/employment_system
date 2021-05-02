@@ -1,0 +1,35 @@
+<!--pages/admin/stuMana/stuBasicInfo/stuBasicInfo.wxml-->
+<view class="cu-bar bg-white search fixed" style="top:{{CustomBar}}px">
+  <view class="search-form round">
+    <text class="cuIcon-search"></text>
+    <input type="text" placeholder="搜索学生" confirm-type="search"></input>
+    <button class="cu-btn shadow-blur round xs margin-right" style="background-color:#6495ED; color:white; width:20%;">搜索</button>
+  </view>
+</view>
+
+<view class="box"></view>
+
+<scroll-view class="scroll-box" scroll-x>
+  <view class="padding flex text-center text-grey bg-white shadow-warp">
+    <view class="flex flex-sub flex-direction solid-right">姓名</view>
+    <view class="flex flex-sub flex-direction solid-right">性别</view>
+    <view class="flex flex-sub flex-direction solid-right">年龄</view>
+    <view class="flex flex-sub flex-direction solid-right">班级</view>
+  </view>
+
+  <view wx:for='{{stuList}}' wx:key='username'>
+
+
+    <view class="cu-list menu card-menu margin-tb-sm margin-bottom-xl shadow-lg radius">
+      <view class="cu-item margin-top round flex">
+        <view class="flex flex-sub flex-direction solid-right">{{item[2]}}</view>
+        <view class="flex flex-sub flex-direction solid-right">{{item[3]}}</view>
+        <view class="flex flex-sub flex-direction solid-right">{{item[4]}}</view>
+        <view class="flex flex-sub flex-direction solid-right">{{item[6]}}</view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+
+
+

@@ -8,10 +8,22 @@
   </view>
 </view>
 
-<view class="margin-top">
-  asdasd
-</view>
-<view wx:for='{{stuList}}' wx:key='username'>
-  {{item[1]}}
+<view class="box"></view>
+
+<view class="cu-list menu card-menu margin-tb-sm margin-bottom-xl shadow-lg radius">
+    <view class="cu-item arrow margin-top round">
+      <navigator class="content" url="/pages/admin/stuMana/stuBasicInfo/stuBasicInfo">
+        <text class="cuIcon-edit text-blue"></text>
+        <text class="text-grey">学生基本信息查看</text>
+      </navigator>
+    </view>
 </view>
 
+<view class="cu-list menu card-menu margin-tb-sm margin-bottom-xl shadow-lg radius">
+    <view class="cu-item arrow margin-top round">
+      <navigator class="content" url="/pages/admin/stuMana/stuLink/stuLink">
+        <text class="cuIcon-edit text-blue"></text>
+        <text class="text-grey">学生联系方式查看</text>
+      </navigator>
+    </view>
+</view>

@@ -1,5 +1,6 @@
 <!--pages/students/position/position.wxml-->
 
+
   <view class="cu-bar search bg-white">
     <view class="search-form round">
       <text class="cuIcon-search"></text>
@@ -15,13 +16,9 @@
   <swiper-item wx:for="{{swiperList}}" wx:key="id" class="{{cardCur==index?'cur':''}}">
     <view class="swiper-item">
       <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
-      <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
     </view>
   </swiper-item>
 </swiper>
-
-
-
 
 <view class="cu-bar bg-white">
 	<view class="action">
@@ -38,7 +35,6 @@
 	<view class="action">
 		<text class="cuIcon-title text-pink"></text>职位类型
 	</view>
-  
 	<view class="cu-form-group">
 		<picker bindchange="PickerChange" value="{{index}}" range="{{picker}}">
 			<view class="picker" style="font-size:30rpx">

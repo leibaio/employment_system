@@ -1,12 +1,30 @@
 <!--pages/students/notice/notice.wxml-->
 <!-- <text>pages/students/notice/notice.wxml</text> -->
-<view class="cu-card article {{isCard?'no-card':''}}" style="height:600rpx">
-  <view class="cu-item shadow">
-    <view class="title">
-      <view class="text-cut">通知</view>
-    </view>
-    <view class="content">
-        <view class="text-content">xxxxx</view>
+
+<view class="cu-timeline">
+  <view class="cu-time">通知</view>
+  <view class="cu-item round">
+    <view class="content round">
+      <view class="cu-capsule radius round">
+        <view class="cu-tag bg-cyan text-xl" style="background-color:#286fcc">Employment</view>
+        <view class="cu-tag line-cyan text-xl" style="color:#286fcc">System</view>
+      </view>
     </view>
   </view>
+</view>
+
+<view wx:for='{{noticeList}}' wx:key='noticeId'>
+  <view class="cu-timeline">
+    <view class="cu-time">{{item[0]}}</view>
+    <view class="cu-item text-blue cuIcon-attentionforbidfill">
+      <view class="content bg-blue shadow-blur" style="background-color:#286fcc">
+        {{item[1]}}
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view class="bg-white flex-sub radius shadow-lg gif">
+    <image src="https://image.weilanwl.com/gif/loading-white.gif" mode="aspectFit" class="gif-white response" style="height:240rpx"></image>
 </view>

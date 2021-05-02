@@ -35,12 +35,12 @@
         <text class="text-grey">应聘管理</text>
       </navigator>
     </view>
-    <view class="cu-item arrow">
+    <!-- <view class="cu-item arrow">
       <navigator class="content" url="/pages/logs/logs">
         <text class="cuIcon-peoplelist text-red"></text>
         <text class="text-grey">简历管理</text>
       </navigator>
-    </view>
+    </view> -->
     <view class="cu-item arrow">
       <navigator class="content" url="/pages/students/password/password">
         <text class="cuIcon-lock text-cyan"></text>

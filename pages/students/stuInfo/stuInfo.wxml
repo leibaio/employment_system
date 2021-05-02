@@ -1,35 +1,43 @@
 <!--pages/students/stuInfo/stuInfo.wxml-->
 <!-- <text>pages/students/stuInfo/stuInfo.wxml</text> -->
-<form>
-    <view class="cu-form-group margin-top">
+<form class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg" style="border-radius: 5%" bindsubmit="modifyInfo" bindreset="stuInfoReset">
+    <view class="cu-form-group">
+		<view class="title">登录账号：</view>
+		<input placeholder="" name="username" bindinput="usernameInput"></input>
+	</view>
+	<view class="cu-form-group">
 		<view class="title">姓名：</view>
-		<input placeholder=""></input>
+		<input placeholder="" name="stuName" bindinput="stuNameInput"></input>
 	</view>
 	<view class="cu-form-group">
 		<view class="title">性别：</view>
-		<input placeholder=""></input>
+		<input placeholder="" name="stuSex" bindinput="stuSexInput"></input>
 	</view>
 	<view class="cu-form-group">
 		<view class="title">年龄：</view>
-		<input placeholder=""></input>
+		<input placeholder="" name="stuAge" bindinput="stuAgeInput"></input>
 	</view>
 	<view class="cu-form-group">
 		<view class="title">学号：</view>
-		<input placeholder=""></input>
+		<input placeholder="" name="stuNum" bindinput="stuNumInput"></input>
 	</view>
 	<view class="cu-form-group">
 		<view class="title">班级：</view>
-		<input placeholder=""></input>
+		<input placeholder="" name="stuClass" bindinput="stuClassInput"></input>
 	</view>
 	<view class="cu-form-group">
 		<view class="title">手机：</view>
-		<input placeholder=""></input>
+		<input placeholder="" name="stuPhone" bindinput="stuPhoneInput"></input>
 	</view>
 	<view class="cu-form-group">
 		<view class="title">邮箱：</view>
-		<input placeholder=""></input>
+		<input placeholder="" name="stuMail" bindinput="stuMailInput"></input>
+	</view>
+
+	<view class="cu-bar btn-group margin-top">
+		<button class="cu-btn shadow-blur round lg" style="background-color:#6495ED; color:white" formType="submit">提交</button>
+	</view>
+	<view class="cu-bar btn-group margin-top">
+		<button class="cu-btn shadow-blur round lg" style="background-color:#A9A9A9; color:white" formType="reset">重置</button>
 	</view>
 </form>
-<view class="cu-bar btn-group margin-top">
-    <button class="cu-btn shadow-blur round lg" style="background-color:#6495ED; color:white">保存</button>
-</view>

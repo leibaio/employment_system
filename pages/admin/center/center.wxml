@@ -20,7 +20,7 @@
       </navigator>
     </view>
     <view class="cu-item arrow margin-top round">
-      <navigator class="content" url="/pages/logs/logs">
+      <navigator class="content" url="/pages/admin/comMana/comMana">
         <text class="cuIcon-shop text-orange"></text>
         <text class="text-grey">企业管理</text>
       </navigator>

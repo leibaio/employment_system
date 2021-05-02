@@ -24,5 +24,4 @@
 	<view class="cu-bar btn-group margin-top">
 		<button class="cu-btn shadow-blur round lg" style="background-color:#6495ED; color:white" form-type="submit">注册</button>
 	</view>
-
 </form>

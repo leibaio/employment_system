@@ -1,0 +1,42 @@
+<!--pages/students/stuInfo/showStuInfo/showStuInfo.wxml-->
+<!-- <text>pages/students/stuInfo/showStuInfo/showStuInfo.wxml</text> -->
+
+<form class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg" style="border-radius: 5%">
+    <view wx:for='{{stuInfoList}}' wx:key='username'>
+    <view class="cu-form-group">
+		<view class="title">登录账号：</view>
+        <view class="content" name="username">{{item[0]}}</view>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">姓名：</view>
+        <view class="content" name="stuName">{{item[2]}}</view>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">性别：</view>
+		<view class="content" name="stuSex">{{item[3]}}</view>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">年龄：</view>
+		<view class="content" name="stuAge">{{item[4]}}</view>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">学号：</view>
+		<view class="content" name="stuNum">{{item[5]}}</view>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">班级：</view>
+		<view class="content" name="stuClass">{{item[6]}}</view>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">手机：</view>
+		<view class="content" name="stuPhone">{{item[7]}}</view>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">邮箱：</view>
+		<view class="content" name="stuMail">{{item[8]}}</view>
+    </view>
+    </view>
+</form>
+	<view class="cu-bar btn-group margin-top">
+		<button class="cu-btn shadow-blur round lg" style="background-color:#6495ED; color:white" bindtap="goToModify">修改</button>
+	</view>

@@ -1,4 +1,4 @@
-<!--pages/login/login.wxml-->
+<!--pages/login/studentLogin/studentLogin.wxml-->
 
 <view class="bg-white flex-sub radius shadow-lg loginpic">
     <image src="../../../images/studentLogo.png" mode="aspectFit" class="gif-white response" style="height:443rpx"></image>

@@ -1,6 +1,6 @@
-/* pages/admin/stuMana/stuMana.wxss */
+/* pages/admin/stuMana/stuLink/stuLink.wxss */
 .box{
-    margin-top: 1.5cm;
+    margin-top: 1.1cm;
 }
 
 .scroll-box {

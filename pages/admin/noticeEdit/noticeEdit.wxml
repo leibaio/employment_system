@@ -6,10 +6,18 @@
             <text class="cuIcon-edit" style="color:#6495ED"></text>
         </view>
     </view>
+</view>
+
+<form bindsubmit="noticeSubmit" bindreset="noticeReset">
+	<view class="cu-form-group margin-top" style="font-size:38rpx;">
+		<view class="title" style="font-size:38rpx;">日期、号码</view>
+		<input placeholder="格式为：2021/04/01/1" style="font-size:38rpx;" name="noticeId"></input>
+	</view>
     <view class="inputBorder margin-top" >
-        <textarea placeholder="请输入通知内容" class="margin" style="font-size:38rpx;"></textarea>
+        <textarea placeholder="请输入通知内容" class="margin" style="font-size:38rpx;" bindinput="noticeInput" name="noticeContent"></textarea>
     </view>
-  </view>
-  <view class="cu-bar btn-group margin-top">
-        <button class="cu-btn shadow-blur round lg" style="background-color:#6495ED; color:white">发布</button>
+    <view class="cu-bar btn-group margin-top">
+        <button class="cu-btn shadow-blur round lg" style="background-color:#6495ED; color:white" formType="submit">发布</button>
+        <button class="cu-btn shadow-blur round lg" style="background-color:#A9A9A9; color:white" formType="reset">重置</button>
     </view>
+</form>

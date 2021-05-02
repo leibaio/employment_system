@@ -1,24 +1,30 @@
 {
     "pages": [
-        "pages/admin/comMana/comMana",
-        "pages/admin/center/center",
+
+        "pages/students/position/position",
+        "pages/students/dataCharts/dataCharts",
         "pages/index/index",
         "pages/login/studentLogin/studentLogin",
         "pages/login/companyLogin/companyLogin",
         "pages/login/adminLogin/adminLogin",
         "pages/students/index/index",
-        "pages/students/position/position",
-        "pages/students/stuInfo/stuInfo",
         "pages/students/resume/resume",
         "pages/students/password/password",
         "pages/students/contactUs/contactUs",
         "pages/students/enroll/enroll",
-        "pages/students/notice/notice",   
+        "pages/students/notice/notice",
+        "pages/students/stuInfo/stuInfo",
+        "pages/students/stuInfo/showStuInfo/showStuInfo",
         "pages/company/index/index",
         "pages/company/comInfo/comInfo",
         "pages/company/postRelease/postRelease",
+        "pages/admin/comMana/comMana",
+        "pages/admin/stuMana/stuBasicInfo/stuBasicInfo",
+        "pages/admin/stuMana/stuLink/stuLink",
+        "pages/admin/stuMana/stuIntention/stuIntention",
+        "pages/admin/stuMana/stuMana",
+        "pages/admin/center/center",
         "pages/admin/noticeEdit/noticeEdit",
-        "pages/admin/stuMana/stuMana",                
         "pages/logs/logs"
 
     ],
@@ -40,6 +46,12 @@
                 "iconPath": "images/消息未选中.png",
                 "selectedIconPath": "images/消息选中.png",
                 "pagePath": "pages/students/notice/notice",
+                "text": ""
+            },
+            {
+                "iconPath": "images/数据未选中.png",
+                "selectedIconPath": "images/数据选中.png",
+                "pagePath": "pages/students/dataCharts/dataCharts",
                 "text": ""
             },
             {

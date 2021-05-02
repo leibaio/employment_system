@@ -58,8 +58,9 @@ Page({
       let that = this;
 
       wx.request({
-        url: 'http://192.168.50.144/employment_system/positionList.php',
+        // url: 'http://192.168.50.144/employment_system/positionList.php',
         // url: 'http://172.20.10.8/employment_system/positionList.php',
+        url: 'http://192.168.0.103/employment_system/positionList.php',
         data: {},
         method: 'GET',
         header:{

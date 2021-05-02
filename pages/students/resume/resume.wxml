@@ -2,6 +2,14 @@
 <!-- <text>pages/students/resume/resume.wxml</text> -->
 <view class="cu-bar bg-white solid-bottom">
   <view class="action">
+    <text class="cuIcon-title text-blue">意向职位</text>
+  </view>
+</view>
+<view class="padding bg-white solid-bottom">
+  <view class="solid-bottom text-df margin-left">xxx职位</view>
+</view>
+<view class="cu-bar bg-white solid-bottom">
+  <view class="action">
     <text class="cuIcon-title text-blue">教育经历</text>
   </view>
 </view>
